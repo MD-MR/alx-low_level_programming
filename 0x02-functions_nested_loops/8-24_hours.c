@@ -22,11 +22,12 @@ void jack_bauer(void)
 				{
 					if (a == 2 && b == 4)
 						break;
-					_putchar(a * 49);
-					_putchar(b * 49);
+					_putchar(a + 48);
+					_putchar(b + 48);
 					_putchar(58);
-					_putchar(c * 49);
-					_putchar(d * 49);
+					_putchar(c + 48);
+					_putchar(d + 48);
+					_putchar('\n');
 				}
 			}
 		}
