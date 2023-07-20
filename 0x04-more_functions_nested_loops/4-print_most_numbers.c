@@ -10,7 +10,7 @@ void print_most_numbers(void)
 
 	for (x = 48; x < 58; x++)
 	{
-		lf(x == 50 || x == 52)
+		while (x == 50 || x == 52)
 			continue;
 		_putchar(x);
 	}
