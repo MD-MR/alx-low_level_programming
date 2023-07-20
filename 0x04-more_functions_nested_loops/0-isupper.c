@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * 
- *
- * Return: Always 0 (Success)
- */
+* 
+*
+* Return: Always 0 (Success)
+*/
 int _isupper(int c)
 {
 	if(c >= A && c <= Z)
@@ -13,6 +13,6 @@ int _isupper(int c)
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 }
